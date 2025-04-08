@@ -1,6 +1,8 @@
-# Trend API with Flask
+# Google Trends Flask API
 
-A simple Google Trends API built with Flask + pytrends and designed to deploy on Railway.
+A simple Flask-based API that returns 12 months of Google Trends data
+for any keyword using `pytrends`.
 
-## Endpoint:
+## Endpoint
+
 GET /trend?keyword=custom%20metal%20sign
