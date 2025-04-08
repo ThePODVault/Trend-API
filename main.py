@@ -27,6 +27,7 @@ def get_trend():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+# ✅ Use Railway's dynamic port
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     print(f"🚀 Flask is running on port {port}")
